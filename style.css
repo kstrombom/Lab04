@@ -1,0 +1,44 @@
+input.button
+{
+	background-color: #008CBA;
+	border: #008CBA;
+	font-size:16px;
+}
+
+body
+{
+	font-size:20px;
+	font-family: "Arial";
+}
+
+table.reciept
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	width: 50%;
+	
+} 
+
+td.purple
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	background-color: #751aff;
+	color: white;
+	font-size: 15px;
+}
+
+td.darkpurple, tr.darkpurple
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	background-color: #004d66;
+	color: white;
+	font-size: 20px;
+}
+
+img
+{
+	border-radius: 8px;
+	border:2px solid black;
+}

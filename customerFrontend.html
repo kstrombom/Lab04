@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Web Store</title>
+    <script type="text/javascript" src="formChecker.js"></script>
+	<link href="style.css"
+            rel="stylesheet"
+            type="text/css">
+  </head>
+ 	<body>
+		
+		<form name="myForm" onsubmit = "formChecker(username.value, password.value, shipping.value, Gonzo.value,Ginger.value,Sammy.value)" action="customerBackend.php" method="post">
+  		Username:
+  		<input type="text" name="username"><br>
+  		Password:
+  		<input type="text" name="password">
+		
+		<br><br><br>
+
+		<p align = "left" style="width:50%">Adopt a dog or two or three!</p>
+	
+		<table style="width:50%">
+  		<tr>
+    		<td align = "center">
+				<img src="Gonzo.jpg" style="width:198.5px;height:144px;">
+			</td>
+    		<td align = "center">
+				<img src="Ginger.jpg" style="width:198.5px;height:144px;">
+			</td>
+			<td align = "center">
+				<img src="Sammy.jpg" style="width:198.5px;height:144px;">
+			</td>
+  		</tr>
+		<tr>
+			<td align = "center">
+				<p>Gonzo $100</p>
+			</td>
+			<td align = "center">
+				<p>Ginger $50</p>
+			</td>
+			<td align = "center">
+				<p>Sammy $100</p>
+			</td>
+		</tr>
+  		<tr>
+   			<td align = "center">
+				<input type="text" name="Gonzo" value="0"><br>
+			</td>
+    		<td align = "center">
+				<input type="text" name="Ginger" value="0"><br>
+			</td>
+			<td align = "center">
+				<input type="text" name="Sammy" value="0"><br>
+			</td>
+  		</tr>
+		</table>
+
+		<br>
+
+		<p>Shipping</p>
+		<input type="radio" name="shipping" value="Free 7 day"> Free 7 day<br>
+  		<input type="radio" name="shipping" value="$50.00 over night"> $50.00 over night<br>
+     	<input type="radio" name="shipping" value="$5.00 three day"> $5.00 three day<br>
+		<br><br>
+		<input class = "button" type="submit" value = "Submit" >
+		<input class = "button" type="reset" value = "Reset">
+		</form>
+
+		
+
+	</body>
+</html>
